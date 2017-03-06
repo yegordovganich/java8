@@ -49,7 +49,7 @@ public class Ex5 extends Application {
     }
 
     @FunctionalInterface
-    interface ColorTransformer {
+    public interface ColorTransformer {
         Color apply(int x, int y, Color colorAtXY);
     }
 }
