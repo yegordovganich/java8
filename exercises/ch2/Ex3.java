@@ -36,7 +36,7 @@ public class Ex3 {
         t2 = System.currentTimeMillis();
         System.out.println(t2 - t1);
 
-        String contents = new String(Files.readAllBytes(Paths.get("resources/WarAndPeace.txt")), StandardCharsets.UTF_8);
+        String contents = new String(Files.readAllBytes(Paths.get("src/resources/WarAndPeace.txt")), StandardCharsets.UTF_8);
         List<String> words = Arrays.asList(contents.split("[\\P{L}]+"));
 
         // 58 ms
